@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Great Vibes');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.dot {
+    list-style-type: disc;
+}
+
+.disc {
+    list-style-type: circle;
+}
+
+h1, h2 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: 1;
+}
