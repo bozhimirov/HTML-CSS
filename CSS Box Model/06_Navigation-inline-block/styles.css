@@ -1,0 +1,29 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    
+    font-size: 11px;
+}
+
+nav {
+    display: inline-block;
+    font-size: 20px;
+
+}
+ul {
+    display: inline-block;
+    margin: auto;
+}
+li {
+    display: inline-block;
+}
+p {
+    text-align: left;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 80px;
+    margin-left: -40px;
+}
