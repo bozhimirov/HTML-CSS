@@ -1,0 +1,38 @@
+@import url('https://font-awesome-4.6.3/css/font-awesome.min.css');
+
+
+
+.viewport:first-child {
+    background: linear-gradient(90deg, rgba(70,103,164,1) 0%, rgba(70,107,163,1) 0%, rgba(70,104,164,1) 20%, rgba(66,196,149,1) 100%);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(90deg, rgba(196,66,138,1) 0%, rgba(235,137,91,1) 100%);
+}
+
+.viewport {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.card {
+    position: absolute;
+    display: block;
+    width: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img {
+    width: 100%;
+
+}
+
+i {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    color:white;
+}
