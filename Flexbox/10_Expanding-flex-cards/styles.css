@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    flex-direction:row;
+}
+.container {
+    display: flex;
+    gap: 2%;
+    margin: 0;
+    justify-content: center;
+    flex: 1 1 0%;
+}
+div {
+    overflow: hidden;
+    display: flex;
+    width: 6%;
+    border-radius: 6px;
+    height: 30vh;
+    box-shadow: 0px 0px 10px 2px rgba(113, 113, 113, 0.5);
+    transition: width 1.5s;
+}
+img {
+    height: 100%;
+    margin: auto;
+    
+}
+
+div:hover {
+    width: 22%;
+    background-color: black;
+    justify-content:space-around;
+    
+}
