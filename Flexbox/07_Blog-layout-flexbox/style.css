@@ -1,0 +1,128 @@
+
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 3rem 4rem;
+}
+
+body>header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    flex-basis: 100%;
+    justify-content: left;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color:rgb(0, 153, 0);
+    text-decoration: none;
+
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 3px solid black;
+    padding: 4px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+aside li {
+    list-style-type: square;
+    line-height: 20px;
+}
+
+
+main {
+    justify-content: left;
+}
+
+aside {
+    vertical-align: top;
+    margin-left: 30px;
+    justify-content: right;
+}
+
+.blockquote-box {
+    display: block;
+    margin: 0;
+}
+
+
+article:nth-child(1) > section > img {
+    float: right;
+    width: 20%;
+    margin: 12px;
+}
+
+article:nth-child(3) > section >img {
+    float: left;
+    width: 25%;
+    margin: 0px 20px 10px 0px;
+}
+
+
+
+blockquote {
+    border-left: 2px solid gray;
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: gray;
+    margin: 0;
+    padding-left: 20px;
+    margin-left: 20px;
+    width: 50%;
+    float: right;
+}
+
+blockquote p:nth-child(2) {
+    
+    float: right;
+  }
+
+.all {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+header>p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+}
