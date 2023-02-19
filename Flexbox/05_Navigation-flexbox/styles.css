@@ -1,0 +1,51 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 3rem;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    flex-basis: 100%;
+    justify-content: end;
+}
+
+header h1 {
+    flex-grow: 1;
+    display: flex;
+    justify-content:left;
+    margin: 0 auto 10px auto;
+    min-width: 150px;
+}
+header nav {
+align-items: flex-start;
+margin: 0 auto;
+}
+
+nav {
+    display: flex;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    font-size: 11px;
+}
+
+ul {
+    display: flex;
+    margin: 0 auto;
+    gap: 2rem;
+    list-style: none;
+}
+
+p {
+    font-size: 20px;
+}
