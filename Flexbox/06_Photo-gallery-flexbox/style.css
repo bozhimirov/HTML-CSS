@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    
+}
+
+body {
+    display: flex;
+    background-color: #ddd;
+    padding: 3rem 3rem;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    height: 40rem;
+    justify-self: center;
+}
+
+li {
+    display: flex;
+    flex: 1 1 30%;
+    height: 200px;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    background-color: #fff;
+    border: 0.4rem solid #000;
+    width: 120px;
+    padding: 14px 6px;
+    align-items: center;
+}
+
+.horizontal {
+   
+    padding: 62px 6px;
+}
+
+.square {
+   
+    padding: 46px 6px;
+}
