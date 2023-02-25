@@ -1,0 +1,74 @@
+body {
+	background-color: rgb(235, 231, 231);
+  }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+  
+  th,
+  td {
+	border: 0.5px solid rgb(197, 197, 197);
+	text-align: left;
+	padding: 2px;
+  border-collapse: collapse;
+  }
+  
+table {
+  width: 96%;
+  margin: 30px 0 auto 0;
+  padding: 0;
+  border-collapse: collapse;
+  }
+  
+th, td {
+    width: 32%;
+    padding-left: 5px;
+  }
+  tr {
+    width: 100%;
+  }
+
+  td {
+    
+  width: 32%;
+  }
+
+  th {
+	background-color: black;
+	color: #fff;
+  width: 32%;
+  }
+  
+  .gray {
+	background-color: rgb(234, 231, 231);
+  }
+  
+  .white {
+	background-color: #fff;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @media screen and (max-width:760px) {
+    thead {
+      display: none;
+    }
+    
+    table {
+      width: 94%;
+    }
+
+    td {
+      width: 100%;
+    }
+
+    .hidden {
+      display: unset;
+      font-weight: 700;
+      margin-right: 10px;
+    }
+  }
